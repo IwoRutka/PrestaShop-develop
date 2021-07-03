@@ -2,8 +2,8 @@
   position: relative;
   z-index: 999;
   color: black;
-  background: white;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.11);
+  background: transparent;
+  // box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.11);
 
   .logo {
     max-width: 100%;
@@ -160,13 +160,15 @@
     }
 
     .menu {
+      width: inherit;
       padding-left: 15px;
     }
 
     &-right {
       display: flex;
       align-items: center;
-      justify-content: space-between;
+      // justify-content: space-between;
+      justify-content: flex-end;
     }
 
     .position-static {
@@ -182,7 +184,23 @@
       float: right;
     }
   }
-
+  #_desktop_cart{
+    margin-left: 9px;
+    text-align: end;
+  }
+  #_desktop_cart span{
+    background-color: orange;
+    border-radius: 50%;
+    position: absolute;
+    font-size: 12px;
+    top: 0px;
+    right: 12px;
+    width: 16px;
+    line-height: 14px;
+    color: white;
+    padding-top: 1px;
+    padding-right: 4px;
+  }
   .top-menu-link {
     margin-left: $medium-space;
   }

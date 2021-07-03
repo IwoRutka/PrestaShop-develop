@@ -1,0 +1,24 @@
+/* custom ps_searchbar */
+
+#search_widget form input {
+    width: 10%;
+    padding: 10px 40px;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+}
+
+#search_widget form:hover input {
+    width: 100%;
+    padding: 10px 40px;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+} 
+#search_widget form i {
+    position: absolute;
+    right: 20px;
+    padding: .5rem;
+}
