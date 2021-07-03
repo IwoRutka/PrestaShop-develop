@@ -26,7 +26,8 @@
 
   a[data-depth="0"] {
     padding: $small-space;
-    font-size: 1.125rem;
+    font-size: .825rem;
+    letter-spacing: .08rem;
     font-weight: 600;
 
     &:hover {
@@ -40,6 +41,8 @@
   a[data-depth="1"],
   a[data-depth="2"] {
     padding: 0 0.625rem 0.625rem 0;
+    font-size: .825rem;
+    letter-spacing: .08rem;
   }
 
   .collapse {

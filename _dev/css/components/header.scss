@@ -1,7 +1,7 @@
 #header {
   position: relative;
   z-index: 999;
-  color: black;
+  color: #7a7a7a;
   background: transparent;
   // box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.11);
 
@@ -17,7 +17,7 @@
   }
 
   a {
-    color: $gray-darker;
+    color: #7a7a7a;
 
     &:hover {
       color: $brand-primary;
@@ -38,7 +38,7 @@
   .header-nav {
     max-height: 120px;
     // border-bottom: red 2px solid;
-    // background-color: yellow;
+    background-color: transparent;
     font-size: .8rem;
 
     #menu-icon {
@@ -122,7 +122,7 @@
       }
 
       .header {
-        margin-top: 0.125rem;
+        // margin-top: 0.125rem;
       }
     }
 
@@ -149,6 +149,10 @@
 
   .header-top {
     padding: 1.25rem 0;
+    position: absolute;
+    z-index: 100;
+    left: 12%;
+    background-color: transparent;
 
     > .container {
       position: relative;

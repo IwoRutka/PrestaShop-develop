@@ -1,3 +1,11 @@
+#header, #header .header-top {
+    background-color: transparent;
+}
+.carousel{
+    top: -1px;
+}
+
+
 /* custom ps_searchbar */
 
 #search_widget form input {
