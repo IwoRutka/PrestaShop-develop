@@ -82,9 +82,9 @@ global_settings:
         - ps_imageslider
       displayHome:
         # - ps_imageslider
-        - ps_banner
-        - ps_featuredproducts
         - ps_customtext
+        - ps_featuredproducts
+        - ps_banner
       displayFooterBefore:
         #- blockreassurance
         - ps_emailsubscription
@@ -129,8 +129,8 @@ global_settings:
       height: 452
       scope: [products, manufacturers, suppliers]
     home_default:
-      width: 250
-      height: 250
+      width: 300
+      height: 300
       scope: [products]
     large_default:
       width: 800
