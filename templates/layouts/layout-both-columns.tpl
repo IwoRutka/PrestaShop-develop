@@ -47,7 +47,9 @@
           {include file='_partials/header.tpl'}
         {/block}
       </header>
-
+      {if $page.page_name == 'index'} 
+      {hook h='displaySlider'}
+      {/if} 
       <section id="wrapper">
         {block name='notifications'}
           {include file='_partials/notifications.tpl'}
