@@ -3,6 +3,13 @@
 
   .direction {
     z-index: auto;
+    position: absolute;
+    width: auto;
+    height: auto;
+    bottom: 30px;
+    right: 51%;
+    background: #fff;
+    z-index: 1;
   }
 
   .carousel-inner {
@@ -24,7 +31,7 @@
       // position: relative;
       position: absolute;
       // text-align: center;
-      bottom: 31%;
+      bottom: 38%;
       right: 20%;
       // max-width: 660px;
       color: $white;
@@ -52,7 +59,7 @@
           font-size: 1.0rem;
           font-weight: 600;
           text-align: center;
-          color: #00A0E2;
+          color: $brand-primary;
           background-color: #fff;
           border-radius: 2.5rem;
           line-height: 2.2rem;
@@ -83,6 +90,9 @@
 
     .icon-next,
     .icon-prev {
+    background-color: white;
+    width: auto;
+    height: auto;
       &::before {
         content: "";
       }
@@ -100,11 +110,11 @@
     }
 
     .icon-prev {
-      left: 1rem;
+      left: -1.9rem;
     }
 
     .icon-next {
-      right: 2rem;
+      right: -1.9rem;
     }
 
     &.left,
